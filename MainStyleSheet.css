@@ -1,3 +1,54 @@
 body {
     background-color: salmon;
+    margin: 0;
+}
+
+.class1 {
+    margin-left: 280px;
+    margin-right: 90px;
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+.class2 {
+    margin-left: 550px;
+    margin-right: 90px;
+    margin-top: -55px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+.class3 {
+    margin-left: 700px;
+    margin-right: 90px;
+    margin-top: -60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.class4 {
+    margin-left: 900px;
+    margin-right: 90px;
+    margin-top: -62px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.class5 {
+    margin-left: 1200px;
+    margin-right: 90px;
+    margin-top: -68px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.cover-container {
+    background-image: linear-gradient(to right, #fe3338, #e27139);
+}
+
+.cover {
+    margin-top: 0rem;
+    margin-bottom: 10rem;
 }

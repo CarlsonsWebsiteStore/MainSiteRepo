@@ -1,0 +1,28 @@
+body {
+    background-color: #97faed;
+}
+
+.class12 {
+    margin-left: 40%;
+    margin-top: 40px;
+    margin-right: 90px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 40px;
+}
+
+.paragraphclass {
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    font-fill: #7361ff;
+    justify-content: space-around;
+    margin-left: 25%;
+    position: center;
+    align-text: center;
+}
+
+.divclass {
+    width: 80em;
+    align-content: center;
+    height: 20em;
+    margin-left: 8%;
+}

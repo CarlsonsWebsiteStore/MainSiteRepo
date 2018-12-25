@@ -1,11 +1,11 @@
 body {
-    background-color: #97faed;
+    background-color: #7afef2;
 }
 
 .class12 {
-    margin-left: 40%;
+    margin-left: 0.5rem;
     margin-top: 40px;
-    margin-right: 90px;
+    text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 40px;
 }
@@ -13,7 +13,6 @@ body {
 .paragraphclass {
     font-family: "Arial", sans-serif;
     font-size: 15px;
-    font-fill: #7361ff;
     justify-content: space-around;
     margin-left: 25%;
     position: center;
@@ -21,8 +20,22 @@ body {
 }
 
 .divclass {
-    width: 80em;
+    left: 50%;
+    margin-right: -150%;
+    margin-left: 37%;
+    text-align: center;
     align-content: center;
-    height: 20em;
-    margin-left: 8%;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.innercontainer1 {
+    position: relative;
+    margin: 20px 10px;
+    top: 10%;
 }

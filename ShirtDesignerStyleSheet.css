@@ -1,3 +1,118 @@
 body {
-    background-color: salmon;
+    background-color: #70b1fa;
+    margin: 0;
+}
+
+.container1-cover {
+    margin: 0;
+}
+
+.container1 {
+    margin-top: 6rem;
+    width: 40rem;
+    height: 50rem;
+    margin-left: 10rem;
+    background-color: #415a84;
+    position: absolute;
+}
+
+
+.container2 {
+    margin-top: 6rem;
+    margin-left: 2rem;
+    width: 10rem;
+    height: 50rem;
+    border-radius: 1px;
+    background-color: #3e19c3;
+    position: absolute;
+}
+
+.headercontainers {
+    width: auto;
+    height: auto;
+    margin-right: 100rem;
+    text-align: center;
+    list-style: none;
+}
+
+.pclass1 {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    -webkit-text-fill-color: #46803e;
+}
+
+.hrclass1 {
+    max-width: 500px;
+    align-content: center;
+    margin-top: -20px;
+}
+
+h1 {
+    font-family: "Dosis", sans-serif;
+    font-size: 35px;
+    margin-left: 130px;
+    position: absolute;
+    color: #737159;
+}
+
+span {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #6fcb60;
+}
+
+
+
+nav {
+    margin-top: -33px;
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    background-color: #83d4ff;
+}
+
+header {
+    margin-top: 5px;
+    padding: 0;
+}
+
+.shirtstyles-container {
+    display: inline-grid;
+    margin-left: 160px;
+}
+
+.shirtitem {
+    margin-left: 2rem;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+}
+
+.sideitem {
+    height: 100%;
+    width: 100px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    padding-top: 16px;
+
+}
+
+a {
+    font-family: "Dosis", sans-serif;
+    font-size: 30px;
+    -webkit-text-fill-color: #fe3338;
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
 }

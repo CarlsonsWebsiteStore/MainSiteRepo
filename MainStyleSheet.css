@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?cs=srgb&dl=bench-carved-stones-cemetery-257360.jpg&fm=jpg");
+    background-color: #2a3473;
     padding: 0;
     margin: 0;
     font-family: "Montserrat", sans-serif;
@@ -30,6 +30,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
 }
+
 .class4 {
     margin-left: 900px;
     margin-right: 90px;
@@ -56,13 +57,14 @@ body {
 }
 
 ul {
+    width: auto;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
 ul li {
-    float: left;
+    float: right;
     width: 200px;
     height: 40px;
     background-color: black;
@@ -91,6 +93,12 @@ ul li ul li {
 
 ul li:hover ul li {
     display: block;
+    border-radius: 2px;
+}
+
+header {
+    width: 100%;
+    height: 70px;
 }
 
 .container3 {
@@ -109,10 +117,33 @@ ul li:hover ul li {
     -webkit-text-fill-color: salmon;
 
 }
+
 nav {
     width: 100%;
-    height: 40px;
-    background-color: #fff;
+    height: 45px;
+    background-color: #77737c;
+}
+
+h1 {
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 10%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #39ca74;
+    margin-top: -3px;
+}
+
+span {
+    color: #76d0fe;
+    margin-left: 10px;
+}
+
+.span2 {
+    color: #60fea7;
+    margin-left: 10px;
 }
 
 .container4 {
@@ -217,4 +248,90 @@ img {
     max-width: 130px;
     margin-top: -10px;
     align-content: center;
+}
+
+.class8 {
+    margin-left: 870px;
+    margin-top: -230px;
+}
+
+.imgclass {
+    min-width: 140px;
+    min-height: 140px;
+    transform: scale(1.0);
+}
+
+.hrunderline3left {
+    max-width: 140px;
+    margin-top: -25px;
+    margin-right: 110px;
+}
+
+.pclass5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    margin-top: -4px;
+    margin-right: -435px;
+}
+
+.pricefarleft {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    margin-right: -435px;
+    margin-top: -7px;
+    -webkit-text-fill-color: #0034ff;
+}
+
+.farleft2ndhrunderline {
+    max-width: 140px;
+    margin-top: -10px;
+    margin-right: 110px;
+}
+
+
+
+.headersubclass {
+    text-align: center;
+}
+
+.othersection-container {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.hr3 {
+    max-width: 100px;
+    align-content: center;
+    margin-top: -15px;
+    display: block;
+}
+
+.othersection {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin: 0;
+    align-content: center;
+    transform-origin: bottom;
+    background-color: #3c6380;
+    position: absolute;
+}
+
+.contact1 {
+    margin-left: -100px;
+    margin-top: -5.0px;
+    margin-right: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.contact2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
 }
